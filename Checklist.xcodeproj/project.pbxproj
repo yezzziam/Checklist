@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9144DE99224BCD8E0024ED1F /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144DE98224BCD8E0024ED1F /* ChecklistTableViewCell.swift */; };
+		9188A7D722412FC4003D2224 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188A7D622412FC4003D2224 /* ChecklistItem.swift */; };
+		9188A7D922414148003D2224 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188A7D822414148003D2224 /* TodoList.swift */; };
+		9188A7DB22428E92003D2224 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188A7DA22428E92003D2224 /* ItemDetailViewController.swift */; };
 		91C3A8FF2239A1C50075E554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3A8FE2239A1C50075E554 /* AppDelegate.swift */; };
 		91C3A9012239A1C50075E554 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3A9002239A1C50075E554 /* ChecklistViewController.swift */; };
 		91C3A9042239A1C50075E554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C3A9022239A1C50075E554 /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9144DE98224BCD8E0024ED1F /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
+		916ED5402240209F00B68A14 /* ProtocolsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9188A7D622412FC4003D2224 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		9188A7D822414148003D2224 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		9188A7DA22428E92003D2224 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		91C3A8FB2239A1C50075E554 /* Checklist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C3A8FE2239A1C50075E554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91C3A9002239A1C50075E554 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +69,11 @@
 				91C3A9052239A1C70075E554 /* Assets.xcassets */,
 				91C3A9072239A1C70075E554 /* LaunchScreen.storyboard */,
 				91C3A90A2239A1C70075E554 /* Info.plist */,
+				916ED5402240209F00B68A14 /* ProtocolsPlayground.playground */,
+				9188A7D622412FC4003D2224 /* ChecklistItem.swift */,
+				9188A7D822414148003D2224 /* TodoList.swift */,
+				9188A7DA22428E92003D2224 /* ItemDetailViewController.swift */,
+				9144DE98224BCD8E0024ED1F /* ChecklistTableViewCell.swift */,
 			);
 			path = Checklist;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 				TargetAttributes = {
 					91C3A8FA2239A1C50075E554 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -136,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C3A9012239A1C50075E554 /* ChecklistViewController.swift in Sources */,
+				9188A7DB22428E92003D2224 /* ItemDetailViewController.swift in Sources */,
+				9188A7D722412FC4003D2224 /* ChecklistItem.swift in Sources */,
 				91C3A8FF2239A1C50075E554 /* AppDelegate.swift in Sources */,
+				9144DE99224BCD8E0024ED1F /* ChecklistTableViewCell.swift in Sources */,
+				9188A7D922414148003D2224 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,10 +309,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yokeapp.Checklist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokeapp.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -310,10 +329,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yokeapp.Checklist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yokeapp.todo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

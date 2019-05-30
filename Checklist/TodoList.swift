@@ -64,9 +64,9 @@ class TodoList {
             }
         case .no:
                     if index < 0 {
-                        mediumPriorityTodos.append(item)
+                        noPriorityTodos.append(item)
                     } else {
-                        lowPriorityTodos.insert(item, at: index)
+                        noPriorityTodos.insert(item, at: index)
             }
         }
     }

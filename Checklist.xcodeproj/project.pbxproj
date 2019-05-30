@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		9144DE98224BCD8E0024ED1F /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
-		916ED5402240209F00B68A14 /* ProtocolsPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolsPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9188A7D622412FC4003D2224 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		9188A7D822414148003D2224 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 		9188A7DA22428E92003D2224 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +68,6 @@
 				91C3A9052239A1C70075E554 /* Assets.xcassets */,
 				91C3A9072239A1C70075E554 /* LaunchScreen.storyboard */,
 				91C3A90A2239A1C70075E554 /* Info.plist */,
-				916ED5402240209F00B68A14 /* ProtocolsPlayground.playground */,
 				9188A7D622412FC4003D2224 /* ChecklistItem.swift */,
 				9188A7D822414148003D2224 /* TodoList.swift */,
 				9188A7DA22428E92003D2224 /* ItemDetailViewController.swift */,

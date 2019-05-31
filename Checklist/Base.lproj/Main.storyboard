@@ -81,7 +81,7 @@
             </objects>
             <point key="canvasLocation" x="916" y="-47.226386806596707"/>
         </scene>
-        <!--Add/Edit-->
+        <!--Add New Item-->
         <scene sceneID="zzo-ky-sCt">
             <objects>
                 <tableViewController id="Ie4-wj-X8G" customClass="ItemDetailViewController" customModule="Checklist" customModuleProvider="target" sceneMemberID="viewController">
@@ -121,7 +121,7 @@
                             <outlet property="delegate" destination="Ie4-wj-X8G" id="j6F-04-X4I"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Add/Edit" id="d4c-LS-fFz">
+                    <navigationItem key="navigationItem" title="Add New Item" id="d4c-LS-fFz">
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="byF-MX-mie">
                             <connections>
                                 <action selector="cancel:" destination="Ie4-wj-X8G" id="gu0-Wy-wif"/>
@@ -163,6 +163,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xFO-q0-ppM"/>
+        <segue reference="fdI-rg-gJu"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -26,18 +26,27 @@ class TodoList {
         let row2Item = ChecklistItem()
         let row3Item = ChecklistItem()
         let row4Item = ChecklistItem()
+        let row5Item = ChecklistItem()
+        let row6Item = ChecklistItem()
+        let row7Item = ChecklistItem()
         
-        row0Item.text = "Take a jog"
-        row1Item.text = "Watch a movie"
-        row2Item.text = "Code an app"
-        row3Item.text = "Walk the dog"
-        row4Item.text = "Study design patterns"
+        row0Item.text = "Disable Delete icon"
+        row1Item.text = "Edit items in rows"
+        row2Item.text = "Save todos in the app"
+        row3Item.text = "Use Parse to save data"
+        row4Item.text = "Add new checked styles"
+        row5Item.text = "Add Done section"
+        row6Item.text = "Remove accessory and I"
+        row7Item.text = "Add dark theme"
         
         addTodo(row0Item, for: .low)
         addTodo(row1Item, for: .no)
         addTodo(row2Item, for: .high)
         addTodo(row3Item, for: .high)
         addTodo(row4Item, for: .medium)
+        addTodo(row5Item, for: .low)
+        addTodo(row6Item, for: .medium)
+        addTodo(row7Item, for: .no)
         
     }
     
